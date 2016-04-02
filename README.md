@@ -1,2 +1,2 @@
-# data_manipulation
+# image2excel
 image2excel类实现将图片按像素点填充到excel worksheet中
