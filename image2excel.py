@@ -6,6 +6,8 @@ from pathlib import Path
 import os
 
 class image2excel(object):
+	"""接受一个以绝对路径命名的图片文件，使用to_excel方法在excel中使用单元格背景填充的方法
+	在worksheet中‘画出’该图片，excel文件保存在相同文件夹的同名xlsx文件中"""
 	
 	def __init__(self,image):
 		#loading image
